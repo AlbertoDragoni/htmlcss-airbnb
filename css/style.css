@@ -29,6 +29,16 @@ img {
     color: white;
     position: absolute; top: 50%; left: 50%;
     transform: translate(-50%, -50%);
+    display: none;
+}
+.immagine-1:hover .parigi {
+    display: block;
+}
+.immagine-2:hover .newyork {
+    display: block;
+}
+.immagine-3:hover .berlino {
+    display: block;
 }
 .overlay {
     width: 100%;
